@@ -12,13 +12,13 @@ public class ContaTerminal {
         String nomeCliente, agencia;
        
         int numeroConta;
-        
+
         double saldo;
 
         System.out.println("Olá, digite seu nome: ");
         nomeCliente = scanner.next();
 
-        System.out.println("Digite sua agencia: ");
+        System.out.println("Digite sua agência: ");
         agencia = scanner.next();
 
         System.out.println("Digite o numero da conta: ");
