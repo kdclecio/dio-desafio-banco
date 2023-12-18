@@ -8,9 +8,11 @@ public class ContaTerminal {
         // Exibir a mensagem classe criada
 
         Scanner scanner = new Scanner(System.in);
-        String nomeCliente;
-        String agencia;
+
+        String nomeCliente, agencia;
+       
         int numeroConta;
+        
         double saldo;
 
         System.out.println("Olá, digite seu nome: ");
